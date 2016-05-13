@@ -8,11 +8,11 @@
 def printStartingAt( initialValue):
         print (" The initial value is %s." %(initialValue))
         if (((initialValue % 3) == 0) and ((initialValue % 5) == 0)):
-            print ('FizzBuzzBangBongle')
+            print ('FizzBuzzBangBongle for %s' %(initialValue))
         elif ( (initialValue % 5) == 0) :
-            print ('Buzz')
+            print ('Buzz for %s' %(initialValue))
         elif ((initialValue % 3) == 0 ):
-            print('Fizz')
+            print('Fizz for %s' %(initialValue))
 
         
 
