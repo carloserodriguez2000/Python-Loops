@@ -20,7 +20,7 @@ def printStartingAt( initialValue):
 
 ############################################################
 def main ():
-    number=0
+    number=1
     while number < 100:
         printStartingAt( number )
         number+=1
